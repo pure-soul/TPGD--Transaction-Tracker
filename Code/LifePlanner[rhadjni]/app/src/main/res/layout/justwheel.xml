@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rhadjni.lifeplanner.Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+    <github.hellocsl.cursorwheel.CursorWheelLayout
+        android:id="@+id/wheel_text"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        app:wheelBackgroundColor="@color/colorAccent"
+        app:wheelCursorColor="@color/colorPrimaryDark"
+        app:wheelCursorHeight="19dp"
+        app:wheelItemRotateMode="none"
+        app:wheelSelectedAngle="270">
+
+        <!--<TextView-->
+            <!--android:id="@+id/wheel_menu_center_item"-->
+            <!--style="@style/TextAppearance.AppCompat.Large.Inverse"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/red"-->
+            <!--android:gravity="bottom"-->
+            <!--android:textColor="@android:color/background_dark" />-->
+
+    </github.hellocsl.cursorwheel.CursorWheelLayout>
+
+</android.support.constraint.ConstraintLayout>

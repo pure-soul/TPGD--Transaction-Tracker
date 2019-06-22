@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transaction Tracker</string>
+    <string name="pref_header_general">常规设置</string>
+    <string name="pref_header_notifications">通知</string>
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_ringtone_silent">沉默</string>
+    <string name="pref_title_vibrate">振动</string>
+    <string name="action_settings">设置</string>
+    <string name="default_gallery_storage">我的视频</string>
+    <string name="pref_title_notifications">通知</string>
+    <string name="summary_choose_ringtone">"选择通知声音  "</string>
+    <string name="title_gallery_storage">默认存储</string>
+    <string name="notifications">启用提醒</string>
+    <string name="title_vibrate">振动</string>
+    <string name="summary_vibrate">振动与通知</string>
+    <string name="product_name">支出名称</string>
+    <string name="enter_expense">支出名称</string>
+    <string name="enter_amt">费用支出</string>
+    <string name="get_date">选择日期</string>
+    <string name="Generator">产生剩余收入</string>
+    <string name="add_income">输入总收入</string>
+    <string name="Empty">全部清除</string>
+    <string name="Text">碰碰运气!旋转车轮!!!</string>
+    <string name="title_spinner">生成图表</string>
+    <string name="title_activity_settings">设置</string>
+</resources>

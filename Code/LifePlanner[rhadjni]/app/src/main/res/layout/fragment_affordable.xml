@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rhadjni.lifeplanner.Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+
+    <github.hellocsl.cursorwheel.CursorWheelLayout
+        android:id="@+id/wheel_text"
+        android:layout_width="350dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fadingText"
+        app:layout_constraintVertical_bias="0.23"
+        app:wheelBackgroundColor="@color/colorAccent"
+        app:wheelCursorColor="@color/colorWhite"
+        app:wheelCursorHeight="19dp"
+        app:wheelItemRotateMode="inward"
+        app:wheelSelectedAngle="270">
+
+    </github.hellocsl.cursorwheel.CursorWheelLayout>
+
+
+    <com.tomer.fadingtextview.FadingTextView
+    android:id="@+id/fadingText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    app:texts="@array/example"
+    app:timeout="500" />
+
+
+    <!--<com.adefruandta.spinningwheel.SpinningWheelView-->
+        <!--android:id="@+id/wheel"-->
+        <!--android:layout_width="296dp"-->
+        <!--android:layout_height="315dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:clickable="true"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="1.0"-->
+        <!--app:wheel_colors="@array/rainbow_dash"-->
+        <!--app:wheel_items="@array/wheel"-->
+        <!--app:wheel_stroke_color="@color/colorPrimary"-->
+        <!--app:wheel_stroke_width="6dp"-->
+        <!--app:wheel_text_size="15dp"-->
+        <!--tools:wheel_arrow_color="@color/colorPrimary"-->
+        <!--tools:wheel_colors="@array/rainbow_dash" />-->
+
+
+    <ImageButton
+        android:id="@+id/fab"
+        android:background="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="428dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/calculator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+

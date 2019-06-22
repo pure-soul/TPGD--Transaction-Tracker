@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/daily"
+        android:icon="@drawable/daily"
+        android:title="Daily" />
+    <item
+        android:id="@+id/income"
+        android:icon="@drawable/income"
+        android:title="My Expenditure" />
+
+    <item
+        android:id="@+id/affordable"
+        android:icon="@drawable/affordable"
+        android:title="Should I buy" />
+
+    <item
+        android:id="@+id/expense"
+        android:icon="@drawable/expenses"
+        android:title="Expenses" />
+    <item
+        android:id="@+id/graph"
+        android:icon="@drawable/graphs"
+        android:title="Chart" />
+
+
+
+
+</menu>

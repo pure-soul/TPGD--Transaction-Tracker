@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16.80dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_transaction"
+        android:textColorHint="@color/colorBorder"
+        android:textSize="16.80dp"
+        android:inputType="text"
+        android:background="@drawable/brown_border"
+        android:maxLines="3"
+        android:layout_marginRight="19.20dp"
+        android:layout_marginEnd="19.20dp"
+        android:textColor="@color/colorBlack"
+        android:padding="16.80dp"/>
+
+    <EditText
+        android:id="@+id/enter_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33.60dp"
+        android:layout_marginEnd="19.20dp"
+        android:layout_marginRight="19.20dp"
+        android:background="@drawable/brown_border"
+        android:hint="@string/enter_amt"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:padding="16.80dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBorder"
+        android:textSize="16.80dp" />
+
+    <Button
+        android:id="@+id/task_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33.60dp"
+        android:layout_marginEnd="19.20dp"
+        android:layout_marginRight="19.20dp"
+        android:background="@drawable/brown_border"
+        android:text="@string/get_date"
+        android:typeface="serif"
+        />
+
+
+
+</LinearLayout>

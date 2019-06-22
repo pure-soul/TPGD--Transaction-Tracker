@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/add"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@android:drawable/ic_input_add"-->
+        <!--android:title="@string/add"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--tools:icon="@android:drawable/ic_input_add" />-->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Emptyex"
+        android:icon="@drawable/dbex"
+        android:title="@string/Empty"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Emptytrans"
+        android:icon="@drawable/dbt"
+        android:title="@string/Empty"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
